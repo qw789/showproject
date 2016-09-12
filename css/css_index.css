@@ -1,0 +1,78 @@
+@charset "utf-8";
+/******************banner样式***********************/
+.fullSlide {
+	width:100%;
+	position:relative;
+	height:400px;
+	background:#000;
+}
+.fullSlide .bd {
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+	overflow:hidden;
+}
+.fullSlide .bd ul {
+	width:100% !important;
+}
+.fullSlide .bd li {
+	width:100% !important;
+	height:400px;
+	overflow:hidden;
+	text-align:center;
+	list-style-type: none;
+}
+.fullSlide .bd li a {
+	display:block;
+	height:400px;
+}
+.fullSlide .hd {
+	width:100%;
+	position:absolute;
+	z-index:1;
+	bottom:0;
+	left:0;
+	height:30px;
+	line-height:30px;
+}
+.fullSlide .hd ul {
+	text-align:center;
+}
+.fullSlide .hd ul li {
+	cursor:pointer;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width:42px;
+	height:11px;
+	margin:1px;
+	overflow:hidden;
+	background:#fff;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	line-height:999px;
+}
+.fullSlide .hd ul .on {
+	background:#f2ad07;
+}
+
+.fullSlide .prev,.fullSlide .next {
+	display:block;
+	position:absolute;
+	z-index:1;
+	top:50%;
+	margin-top:-30px;
+	z-index:1;
+	width:60px;
+	height:80px;
+	background:url(../images/slider-arrow.png) -120px -130px #333 no-repeat;
+	cursor:pointer;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	display:none;
+}
+.fullSlide .next {
+	left:auto;
+	right:0%;
+	background-position:-0px -130px;
+}

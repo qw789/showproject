@@ -1,2 +1,0 @@
-# showproject
-show my project
